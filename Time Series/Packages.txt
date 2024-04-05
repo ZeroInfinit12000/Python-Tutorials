@@ -1,0 +1,9 @@
+['statsmodels','statsforecast', 'darts', 'autots', 'prophet', 'pmdarima','statsforecast',"arch-py"                                  ]
+
+Starters: 
+Stasmodels: is quite complete; 
+pmdarims: is  pretty complete for ARIMA ONLY.
+darts: many selection models
+prophet: good for some deafult predictions models, less ajustable
+statsforcast: Many models + Easy selection of models, most notable for speed
+autots: Good to try multiple models to check the fit

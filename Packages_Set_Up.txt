@@ -1,0 +1,19 @@
+conda config --add channels conda-forge
+conda update -n base --all
+conda install -n base mamba
+
+mamba create -n enviroment_name python=3.9 numpy pandas matplotlib seaborn sympy statsmodels linearmodels arch-py statsforecast darts dtale dataprep jupyter ipykernel ipython scipy scipy dowhy econml pandas-datareader pylustrator pandas-bokeh pandasdmx scikit-learn autots prophet pmdarima formulaic pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+activate enviroment_name
+
+pip install wbdata causalml fredapi #causalml might not work...
+
+
+
+# or
+
+mamba install python=3.9 numpy pandas matplotlib seaborn sympy statsmodels linearmodels arch-py statsforecast darts dtale dataprep jupyter ipykernel ipython scipy scipy scikit-learn autots prophet pmdarima wbdata dowhy econml causalml formulaic pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
+# fredapi not on path--> instalation: download zip file, pip install package_path.zip
+# API_KEY = "c33d17d6ad546cfc58302d8906a42ece"
+
