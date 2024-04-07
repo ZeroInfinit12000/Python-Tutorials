@@ -2,11 +2,11 @@ conda config --add channels conda-forge
 conda update -n base --all
 conda install -n base mamba
 
-mamba create -n enviroment_name python=3.9 numpy pandas matplotlib seaborn sympy statsmodels linearmodels arch-py statsforecast darts dtale ipympl dataprep jupyter ipykernel ipython scipy scipy dowhy econml pandas-datareader pylustrator pandas-bokeh pandasdmx scikit-learn autots prophet pmdarima formulaic pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+mamba create -n enviroment_name python=3.9 numpy pandas matplotlib seaborn sympy statsmodels linearmodels arch-py statsforecast darts dtale ipympl dataprep jupyter ipykernel ipython sktime scipy dowhy econml pandas-datareader pylustrator pandas-bokeh pandasdmx scikit-learn autots prophet pmdarima formulaic pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
 activate enviroment_name
 
-pip install wbdata causalml fredapi #causalml might not work...
+pip install wbdata datasetsforecast causalml fredapi #causalml might not work...
 
 
 
