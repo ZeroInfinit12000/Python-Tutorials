@@ -6,7 +6,7 @@ mamba create -n enviroment_name python=3.9 numpy pandas matplotlib seaborn sympy
 
 activate enviroment_name
 
-pip install wbdata datasetsforecast causalml fredapi #causalml might not work...
+pip install wbdata imfp datasetsforecast causalml fredapi #causalml might not work...
 
 
 
